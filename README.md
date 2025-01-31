@@ -119,14 +119,59 @@ while let Some(updated_users) = stream.next().await {
 
 ## Documentation
 
-For detailed documentation and examples, visit:
-- [API Documentation](https://docs.rs/okodata)
-- [User Guide](https://github.com/yourusername/okodata/wiki)
-- [Examples](https://github.com/yourusername/okodata/tree/main/examples)
+The project documentation is currently under development. In the meantime, you can:
+
+- Check the inline code documentation using `cargo doc --open`
+- View example usage in the `tests/` directory
+- Visit our [GitHub repository](https://github.com/Okoole/OkoData) for the latest updates
+
+Documentation roadmap:
+- [ ] API Documentation
+- [ ] User Guide
+- [ ] Examples Collection
+- [ ] Integration Guides
+- [ ] Best Practices
+
+Stay tuned for updates!
 
 ## Contributing
 
-We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions! Here's how you can help:
+
+1. 📋 **Check the Roadmap**: Review our [ROADMAP.md](ROADMAP.md) file to see:
+   - Features that need implementation
+   - What's currently in progress
+   - Planned enhancements
+   - Release planning
+
+2. 🌿 **Branching Guidelines**:
+   - Create a feature branch for each contribution:
+     ```bash
+     git checkout -b feature/feature-name
+     # or
+     git checkout -b enhancement/enhancement-name
+     git checkout -b bugfix/bug-name
+     ```
+   - Use prefixes to categorize your branches:
+     - `feature/` for new features
+     - `enhancement/` for improvements
+     - `bugfix/` for bug fixes
+     - `docs/` for documentation changes
+
+3. 🔄 **Development Workflow**:
+   - Make your changes in your feature branch
+   - Write or update tests as needed
+   - Follow the existing code style
+   - Commit your changes with clear messages
+   - Push your branch and create a Pull Request
+
+4. 📝 **Before Submitting**:
+   - Ensure all tests pass
+   - Update documentation if needed
+   - Add your feature to ROADMAP.md if completed
+   - Describe your changes in the PR
+
+For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
