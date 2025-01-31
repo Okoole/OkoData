@@ -1,5 +1,5 @@
 [package]
-name = "kuzu-ogm"
+name = "okodata"
 version = "0.1.0"
 edition = "2021"
 description = "An Object-Graph Mapper (OGM) for KuzuDB"
@@ -12,7 +12,7 @@ thiserror = "2.0.11"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 tokio = { version = "1.0", features = ["full"] }
-kuzu-ogm-macros = { path = "./kuzu-ogm-macros" }
+okodata-macros = { path = "./okodata-macros" }
 
 [dev-dependencies]
 tokio-test = "0.4"

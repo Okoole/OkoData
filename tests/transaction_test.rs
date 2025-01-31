@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod transaction_tests {
-    use kuzu_ogm::{Node, KuzuGraph, Error, Result};
+    use okodata::{Node, KuzuGraph, Error, Result};
     use serde::{Serialize, Deserialize};
     use std::fs;
     use std::path::PathBuf;

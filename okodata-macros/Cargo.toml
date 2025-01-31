@@ -1,8 +1,8 @@
 [package]
-name = "kuzu-ogm-macros"
+name = "okodata-macros"
 version = "0.1.0"
 edition = "2021"
-description = "Proc macros for kuzu-ogm"
+description = "Proc macros for okodata"
 license = "MIT"
 
 [lib]

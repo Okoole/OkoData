@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use kuzu_ogm::{Node, Relationship, KuzuGraph, Value};
+    use okodata::{Node, Relationship, KuzuGraph, Value};
     use serde::{Serialize, Deserialize};
     use std::fs;
     use tokio;
