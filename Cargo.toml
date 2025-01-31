@@ -1,0 +1,20 @@
+[package]
+name = "kuzu-ogm"
+version = "0.1.0"
+edition = "2021"
+description = "An Object-Graph Mapper (OGM) for KuzuDB"
+license = "MIT"
+
+[dependencies]
+kuzu = "0.7.1"
+async-trait = "0.1"
+thiserror = "2.0.11"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+kuzu-ogm-macros = { path = "./kuzu-ogm-macros" }
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[lib] 
